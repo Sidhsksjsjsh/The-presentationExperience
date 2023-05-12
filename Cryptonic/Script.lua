@@ -8,7 +8,7 @@ local library = loadstring(game:HttpGet("https://pastebin.com/raw/GcC9P2Je"))()
 local main = library.window("main")
 
 main.button("walk",function()
-	game.Players.LocalPlayer.Character.Sit:Destroy()
+	game.Players.LocalPlayer.Character.Humanoid.Sit:Destroy()
 	wait()
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 	wait()
